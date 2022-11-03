@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+}
+
+.logo__react{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-right: 12px;
+}
+
+.nav__links{
+    display: flex;
+    align-items: center;
+}
+
+.nav__link{
+    padding: 0 24px;
+    font-size: 14px;
+}
+
+
+.first__button{
+    padding: 12px 32px;
+    background-color: #6415ff;
+    border: none;
+    border-radius: 9999px;
+}
+
+/*Welcome Page*/
+
+.purple{
+    color: #6415ff;
+}
+
+.left__side{
+    padding: 96px 0;
+    width: 40%;
+    border: 2px solid red;
+}
+
+.right__side{
+    width: 60%;
+    border: 2px solid blue;
+}
