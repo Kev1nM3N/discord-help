@@ -43,6 +43,7 @@ nav{
 .nav__link{
     padding: 0 24px;
     font-size: 14px;
+    color: black;
 }
 
 
@@ -58,6 +59,14 @@ nav{
 
 .purple{
     color: #6415ff;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid yellow;
+    display: flex;
 }
 
 .left__side{
