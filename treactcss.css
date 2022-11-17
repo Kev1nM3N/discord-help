@@ -120,7 +120,7 @@ nav{
 
 @keyframes float{
     0%{
-        transform: translateX(100rem);
+        transform: translateX(50rem);
     }
 
     100%{
@@ -178,7 +178,18 @@ nav{
     justify-content: center;
     align-items: center;
     opacity: 0;
+    animation: close all 200ms;
     visibility: hidden;
+}
+
+@keyframes close{
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(100rem);
+    }
 }
 
 
