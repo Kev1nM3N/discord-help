@@ -129,7 +129,6 @@ nav{
 }
 
 
-
 .menu__links{
     display: flex;
     flex-direction: column;
@@ -178,7 +177,6 @@ nav{
     justify-content: center;
     align-items: center;
     opacity: 0;
-    animation: close all 200ms;
     visibility: hidden;
 }
 
