@@ -196,16 +196,6 @@ nav{
     opacity: 0;
   }
 
-@keyframes close{
-    0%{
-        transform: translateX(0);
-    }
-
-    100%{
-        transform: translateX(100rem);
-    }
-}
-
 
 .btn__menu--close{
     position: absolute;
